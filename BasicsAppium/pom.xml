@@ -18,11 +18,5 @@
     <artifactId>testng</artifactId>
     <version>7.7.1</version>
 </dependency>
-
-  	<dependency>
-  		<groupId>database</groupId>
-  		<artifactId>Database_Testing</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
 </project>

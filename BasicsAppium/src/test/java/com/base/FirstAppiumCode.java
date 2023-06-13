@@ -18,14 +18,12 @@ public class FirstAppiumCode {
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setPlatformName("android");
 		options.setDeviceName("Pixel 2");
-		options.setApp("C:\\Users\\Sibisubramanian\\git\\appium\\BasicsAppium\\src\\test\\java\\com\\base\\FirstAppiumCode.java");
-		//Android driver setup
+		options.setApp("C:\\Users\\Gowtham\\git\\appium\\BasicsAppium\\src\\test\\java\\sample\\ApiDemos-debug.apk");
+		//Android driver setup 
 		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
 	}
-	
-	public void add()
-	{
-       System.out.println("hello"+"world");
-    }
-	
+	public void add() {
+		System.out.println("change to add");
+		
+	}
 }
