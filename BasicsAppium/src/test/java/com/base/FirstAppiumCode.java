@@ -22,4 +22,10 @@ public class FirstAppiumCode {
 		//Android driver setup
 		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
 	}
+	
+	public void add()
+	{
+       System.out.println("hello"+"world");
+    }
+	
 }
