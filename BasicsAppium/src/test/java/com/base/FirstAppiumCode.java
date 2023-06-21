@@ -21,7 +21,7 @@ public class FirstAppiumCode {
 		options.setApp("C:\\Users\\Gowtham\\git\\appium\\BasicsAppium\\src\\test\\java\\sample\\ApiDemos-debug.apk");
 		//Android driver setup 
 		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
-		System.out.println("am mura");
+		System.out.println("am gowtham");
 	}
 	public void add() {
 		System.out.println("hello");
